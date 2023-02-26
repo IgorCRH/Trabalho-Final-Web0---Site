@@ -8,7 +8,7 @@ ul li {
   padding-right: 50px;
 }
 ul li a {
-  font-family: sportv;
+  font-family: ./sportv;
   font-size: 9vh;
   line-height: 1.2;
   font-weight: 800;
