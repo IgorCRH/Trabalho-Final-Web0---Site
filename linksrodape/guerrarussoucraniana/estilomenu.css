@@ -1,0 +1,45 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul li {
+  padding: 6px 0;
+  padding-right: 50px;
+}
+ul li a {
+  font-family: sportv;
+  font-size: 3vh;
+  line-height: 1.2;
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+  color: #005017;
+  transition: all 250ms linear;
+  text-decoration: none;
+  list-style-type: none;
+}
+ul li a:hover {
+  background-size: 100%;
+   text-decoration: none;
+  color: #0c9e36;
+}
+
+ul li a:after{
+  display: block;
+  position: absolute;
+  top: 50%;
+  content: '';
+  height: 1vh;
+  margin-top: 2vh;
+  width: 0;
+  left: 0;
+  background-color: #05a232;
+  opacity: 5.0;
+  transition: width 350ms linear;
+  list-style-type: none;
+}
+
+ul li a:hover:after{
+  width: 100%;
+}
