@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'sportv';
+    src: url(../sportv.ttf);
+}
+
 ul {
   display: flex;
   flex-direction: column;
@@ -8,7 +13,6 @@ ul li {
   padding-right: 50px;
 }
 ul li a {
-  @font-face {font-family: sportv; src: url(./sportv.ttf);
   font-size: 9vh;
   line-height: 1.2;
   font-weight: 800;
